@@ -46,7 +46,7 @@ public class Main {
         driver.get("https://formy-project.herokuapp.com/autocomplete");
 
         WebElement Address = driver.findElement(By.id("autocomplete")); // Finding field to type name in
-        Address.sendKeys("688 Satsuma Terrace, Sunnyvale, CA 94087");
+        Address.sendKeys("123 Sesame St, Kings Park, NY 11754");
         //time delay by explicit wait
         WebDriver wait = new WebDriverWait(driver, Duration.ofSeconds(10)); // specify time to wait
         // finding auto completed address after time delay
